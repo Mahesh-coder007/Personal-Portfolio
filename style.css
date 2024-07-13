@@ -1,0 +1,306 @@
+@font-face {
+  font-family: Sansilk;
+  src: url(./fonts/Sansilk.woff2);
+}
+
+@font-face {
+  font-family: Galhau;
+  src: url(./fonts/Galhau_Heavy.woff2);
+}
+
+:root {
+  --red: #cc4146;
+  --grey: #6c6c6c;
+  --white: white;
+  --black: black;
+  --lite: #d4d3cb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #fff;
+  background-color: #121212;
+  font-family: "Satoshi", sans-serif;
+  font-size: 1rem;
+  line-height: 155%;
+}
+
+nav {
+  width: 100%;
+  padding-inline: var(--padding-global);
+  position: fixed;
+  top: 0%;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+
+nav ul > :not(:last-child) {
+  margin-right: 2rem;
+}
+
+.menu{
+  position: fixed;
+  right: 0%;
+  top: 4%;
+  z-index: 99999;
+  padding-inline: var(--padding-global);
+  /* transform: translateX(100%); */
+}
+
+.menu ul{
+  height: 30vh;
+  display: flex;
+  gap: .5rem;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  background-color: #6c6c6c;
+}
+
+.hero {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero h1 {
+  color: var(--tan);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.scroll-imgs img {
+  width: 27rem;
+  border-radius: 10px;
+  position: absolute;
+}
+
+.scroll-imgs img:nth-child(1) {
+  bottom: -20%;
+  right: 35%;
+}
+
+.scroll-imgs img:nth-child(2) {
+  bottom: -23%;
+  left: -17%;
+}
+
+.scroll-imgs img:nth-child(3) {
+  bottom: -25%;
+  left: -8%;
+}
+
+.scroll-imgs img:nth-child(4) {
+  bottom: -60%;
+  left: 20%;
+}
+
+.scroll-imgs img:nth-child(5) {
+  bottom: -35%;
+  right: 10%;
+}
+
+.scroll-imgs img:nth-child(6) {
+  bottom: -18%;
+  right: -20%;
+}
+
+.scroll-imgs img:nth-child(7) {
+  bottom: -40%;
+  right: -15%;
+}
+
+#about,
+#portfolio,
+#footer {
+  padding-inline: var(--padding-global);
+}
+
+.grid-social {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.me-grid {
+  display: grid;
+  grid-template-columns: 45fr 2px 20fr;
+  column-gap: 3rem;
+  padding-inline: 2rem;
+}
+
+.grid-vline {
+  background-color: #fff;
+}
+
+.me-grid .text-xsmall {
+  color: var(--tan);
+}
+
+#about .cards {
+  text-align: center;
+  gap: 8rem;
+}
+
+.Experties .text-small {
+  width: 80vw;
+  margin-inline: auto;
+}
+
+.me-gallary {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  gap: 1.7rem;
+  position: relative;
+}
+
+.me-wrapper {
+  height: 40rem;
+  width: 30%;
+  overflow: hidden;
+}
+
+.me-wrapper img {
+  height: 40rem;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(100%);
+  transition: all 0.4s ease;
+}
+
+.me-wrapper img:hover {
+  filter: grayscale(0%);
+  scale: 1.1;
+}
+
+.me-gallary .me-wrapper:nth-child(2) {
+  margin-top: 4rem;
+}
+
+.me-gallary .me-wrapper:nth-child(3) {
+  margin-top: 8rem;
+}
+
+.services {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.s-card {
+  height: 30rem;
+  width: 85%;
+  background-color: crimson;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  border-radius: 20px;
+}
+
+.s-card:nth-child(2) {
+  background-color: teal;
+  top: 115%;
+}
+
+.s-card:nth-child(3) {
+  background-color: chartreuse;
+  top: 180%;
+}
+.s-card:nth-child(4) {
+  background-color: cornflowerblue;
+  top: 246%;
+}
+
+.s-card .lable {
+  background-color: #0000009e;
+  padding: 0.7rem 1.5rem;
+  border-radius: 50px;
+}
+
+.s-card .view {
+  border: none;
+  background-color: #121212;
+  color: #fff;
+  padding: 0.6rem 1.7rem;
+  border-radius: 50px;
+  align-self: end;
+}
+
+#portfolio img {
+  width: 100%;
+  height: 45vw;
+  object-fit: cover;
+  object-position: center;
+}
+
+.feture-container {
+  position: relative;
+}
+
+#portfolio .elem {
+  margin-inline: 0 0;
+}
+
+.d {
+  width: 100%;
+  height: 45vw;
+  overflow: hidden;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 45vw;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+footer .text-ssmall {
+  width: 50vw;
+  margin-inline: auto;
+}
+
+.social-icons i {
+  margin-right: 10px;
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+footer .social-icons i:hover {
+  color: #cc4146;
+}
+
+.subfooter .flex {
+  height: 12vh;
+}
+
+.sub-right li {
+  margin-left: 20px;
+}
+
+header{
+  height: fit-content;
+  overflow: hidden;
+}
+
+header h2{
+  opacity: 0;
+ transform: translateY(100%);
+}

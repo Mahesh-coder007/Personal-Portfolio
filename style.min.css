@@ -1,0 +1,236 @@
+@font-face {
+  font-family: Sansilk;
+  src: url(./fonts/Sansilk.woff2);
+}
+
+@font-face {
+  font-family: Galhau;
+  src: url(./fonts/Galhau_Heavy.woff2);
+}
+
+:root {
+  --red: #cc4146;
+  --grey: #6c6c6c;
+  --white: white;
+  --black: black;
+  --tan: #d4d3cb;
+  --padding-global: 3.2rem;
+}
+
+a,
+ul,
+li,button {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.font-galhau {
+  font-family: Galhau;
+}
+
+.font-Sansilk {
+  font-family: Sansilk;
+}
+
+.red-dot {
+  color: var(--red);
+}
+
+.opacity-55 {
+  opacity: 0.55;
+}
+
+.center-text{
+  text-align: center;
+}
+
+.none-pc{
+  display: none;
+}
+
+.heading-large {
+  letter-spacing: -7px;
+  font-size: 19vw;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.heading-title {
+  font-size: 12vw;
+  font-weight: 400;
+  line-height: 100%;
+  font-family: Sansilk;
+  text-align: center;
+}
+
+/* .text-xxlarge{
+  font-size: 2.75rem;
+  font-weight: 400;
+  line-height: 1.2;
+} */
+
+.text-xsmall {
+  font-size: 2.75rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.text-small {
+  font-size: 1.7rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.text-large {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.text-ssmall {
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.text-tiny {
+  font-size: 0.875rem;
+  line-height: 1;
+  font-style: italic;
+}
+
+.text-diplay {
+  font-family: Galhau;
+  font-size: 2.25rem;
+  line-height: 1.5;
+}
+
+.margin-big {
+  margin: 13rem;
+}
+
+.margin-xlarge {
+  margin: 10rem;
+}
+
+.margin-xxlarge {
+  margin: 6rem;
+}
+
+.margin-large {
+  margin: 4rem;
+}
+
+.margin-small{
+  margin: 2rem;
+}
+
+.margin-block {
+  margin-inline: 0;
+}
+
+.margin-top {
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.margin-bottom{
+  margin-right: 0;
+  margin-left: 0;
+  margin-top: 0;
+}
+
+nav li{
+  position: relative;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  border-radius: 30px;
+  padding: .2rem 1rem .2rem 2rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 99;
+  transition: all .5s cubic-bezier(1, 0, 0, 1);
+
+}
+
+nav li a .s-dot{
+  display: inline-block;
+  height: .7rem;
+  width: .7rem;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  left: 12%;
+  top: 35%;
+  z-index: -1;
+  transition: all .5s cubic-bezier(1, 0, 0, 1);
+}
+
+nav li:hover .s-dot{
+  scale: 20;
+}
+
+nav li:hover{
+  color: var(--black);
+}
+
+.section-btn{
+  display: block;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  padding: 1rem 2rem 1rem 3.2rem;
+  overflow: hidden;
+  position: relative;
+  z-index: 99;
+  margin-inline: auto !important;
+  transition: all .5s cubic-bezier(1, 0, 0, 1);
+
+}
+
+.section-btn .dot{
+  display: inline-block;
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+  left: 13%;
+  z-index: -1;
+  transition: all .5s cubic-bezier(1, 0, 0, 1);
+}
+
+.section-btn:hover .dot{
+  scale: 20;
+}
+.section-btn:hover{
+  color: var(--black);
+}
+
+#circle {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999999;
+  transform: translate(-50%, -50%);
+  width: 1.5vw;
+  height: 1.5vw;
+  background-color: var(--red);
+  border-radius: 50%;
+  mix-blend-mode: difference;
+  /* transition: all linear .1s; */
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}

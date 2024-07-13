@@ -1,0 +1,315 @@
+@media screen and (min-width: 1440px) {
+
+}
+
+
+@media screen and (max-width: 991px) {
+  :root {
+    --padding-global: 2.5rem;
+  }
+  .heading-large {
+    letter-spacing: -7px;
+    font-size: 9rem;
+    font-weight: 400;
+    line-height: 100%;
+  }
+
+  .heading-title {
+    font-size: 9rem;
+  }
+
+  /* .text-xxlarge{
+        font-size: 2.75rem;
+        font-weight: 400;
+        line-height: 1.2;
+      } */
+
+  .text-xsmall {
+    font-size: 2.75rem;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  .text-small {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.2;
+  }
+
+  .text-ssmall {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+
+  .text-tiny {
+    font-size: 0.875rem;
+    line-height: 1;
+    font-style: italic;
+  }
+
+  .text-large {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-weight: 600;
+  }
+
+  .text-diplay {
+    font-family: Galhau;
+    font-size: 2.25rem;
+    line-height: 1.5;
+  }
+
+  .margin-big {
+    margin: 9rem;
+  }
+
+  .margin-xlarge {
+    margin: 7rem;
+  }
+
+  .margin-xxlarge {
+    margin: 4rem;
+  }
+
+  .margin-large {
+    margin: 4rem;
+  }
+
+  .margin-small {
+    margin: 1.65rem;
+  }
+
+  .margin-block {
+    margin-inline: 0;
+  }
+
+  .margin-top {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .margin-bottom {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .none-tab{
+    display: none;
+  }
+
+  .none-pc{
+    display: block;
+  }
+
+
+  /* ------------------------------------ */
+
+  nav{
+    top: 3%;
+  }
+
+  .me-grid {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    padding-inline: 0;
+  }
+
+  .me-grid .grid-social {
+    gap: 15px;
+  }
+
+  #about .cards {
+    text-align: center;
+    gap: 4.2rem;
+    flex-direction: column;
+  }
+
+  .s-card {
+    height: 28rem;
+    width: 95%;
+  }
+
+.img-wrapper{
+    width: 100%;
+    height: 45vw;
+  }
+
+  footer .text-ssmall {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --padding-global: 1.2rem;
+  }
+
+  .heading-title {
+    font-size: 6rem;
+  }
+
+  .text-xsmall {
+    font-size: 6vw;
+  }
+
+  .text-large{
+    font-size: 1.2rem;
+  }
+
+  .text-small{
+    font-size: 1.1rem;
+  }
+
+  .margin-big {
+    margin: 7.45rem;
+  }
+
+  .margin-xlarge {
+    margin: 5rem;
+  }
+
+  .margin-xxlarge {
+    margin: 4rem;
+  }
+
+  .margin-large {
+    margin: 2.7rem;
+  }
+
+  .margin-small {
+    margin: 1.65rem;
+  }
+
+  .margin-block {
+    margin-inline: 0;
+  }
+
+  .margin-top {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .margin-bottom {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
+  .none-mobile{
+    display: none;
+  }
+
+  .none-pc{
+    display: block;
+  }
+
+  /* -------------------------------------- */
+  
+  .scroll-imgs img {
+    width: 27rem;
+    border-radius: 10px;
+    position: absolute;
+  }
+  
+  .scroll-imgs img:nth-child(1) {
+    display: none;
+  }
+  
+  .scroll-imgs img:nth-child(2) {
+    bottom: -20%;
+    left: -40%;
+    width: 20rem;
+
+  }
+  
+  .scroll-imgs img:nth-child(3) {
+    bottom: -15%;
+    left: -60%;
+    width: 20rem;
+
+  }
+  
+  .scroll-imgs img:nth-child(4) {
+    bottom: -60%;
+    left: -5%;
+    width: 20rem;
+
+
+  }
+  
+  .scroll-imgs img:nth-child(5) {
+    bottom: -15%;
+    right: -30%;
+    width: 20rem;
+
+  }
+  
+  .scroll-imgs img:nth-child(6) {
+    bottom: -18%;
+    right: -60%;
+    width: 20rem;
+
+  }
+  
+  .scroll-imgs img:nth-child(7) {
+   display: none;
+
+  }
+
+  .Experties .text-small{
+    width: 90vw;
+    margin-inline: auto;
+  }
+
+  .s-card {
+    height: 30rem;
+    width: 95%;
+    margin-inline: auto;
+  }
+
+  .section-btn {
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    padding: .7rem 2rem .7rem 3.2rem;
+  }
+
+  #portfolio .elem {
+    margin-inline: 0 0;
+  }
+  
+  .d {
+    width: 100%;
+    height: 35rem;
+    overflow: hidden;
+  }
+  
+  .img-wrapper {
+    width: 100%;
+    height: 35rem;
+    border-radius: 10px;
+  }
+
+  #portfolio img{
+    width: 100%;
+    height: 35rem;
+  }
+
+  footer .text-ssmall {
+    width: 90vw;
+  }
+
+  .sub-right li {
+    margin-left: 10px;
+}
+
+.subfooter .flex {
+  flex-direction: column-reverse;
+  justify-content: center;
+}
+}

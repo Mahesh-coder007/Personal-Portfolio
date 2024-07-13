@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.min.css" />
+    <link rel="stylesheet" href="./media.css" />
+  </head>
+  <body>
+    <div id="circle"></div>
+    <div class="main">
+      <nav class="flex">
+        <div class="logo text-xsmall font-Sansilk">
+          Home<span class="red-dot">.</span>
+        </div>
+        <div class="links none-tab">
+          <ul>
+            <li>
+              <a href=""><span class="s-dot"></span>Home</a>
+            </li>
+            <li>
+              <a href=""><span class="s-dot"></span>About</a>
+            </li>
+            <li>
+              <a href=""><span class="s-dot"></span>Blog</a>
+            </li>
+            <li>
+              <a href=""><span class="s-dot"></span>Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="Hire none-tab">
+          <li>
+            <a href=""><span class="s-dot"></span>Resume</a>
+          </li>
+        </div>
+        <div class="open-menu none-pc" onclick="openMenu();">
+          <i class="fa-solid fa-bars fa-xl"></i>
+        </div>
+      </nav>
+      <div class="page-1" id="home">
+        <section class="hero">
+          <h1 class="heading-large font-Sansilk">
+            Mahesh<span class="red-dot">.</span>
+          </h1>
+          <div class="scroll-imgs">
+            <img src="./assets/asset 1.jpeg" alt="" />
+            <img src="./assets/asset 2.jpeg" alt="" />
+            <img src="./assets/asset 3.jpeg" alt="" />
+            <img src="./assets/asset 4.jpeg" alt="" />
+            <img src="./assets/asset 5.jpeg" alt="" />
+            <img src="./assets/asset 6.jpeg" alt="" />
+            <img src="./assets/asset 7.jpeg" alt="" />
+          </div>
+        </section>
+      </div>
+      <div class="page-2 margin-xlarge margin-block" id="about">
+        <header>
+          <h2 class="heading-title">About me<span class="red-dot">.</span></h2>
+        </header>
+        <section class="me margin-large margin-block">
+          <div class="me-grid margin-xxlarge margin-block">
+            <div class="grid-text text-xsmall">
+              <h2>
+                <span class="red-dot">I’m</span> a skilled
+                <span class="red-dot">web developer</span> and app developer
+                crafting <span class="red-dot">innovative</span> and functional
+                digital <span class="red-dot">solutions.</span>
+                cureently pursuing B-tech.
+              </h2>
+            </div>
+            <div class="grid-vline"></div>
+            <div class="grid-social">
+              <div class="text-small">About Me</div>
+              <div class="social-icons">
+                <ul>
+                  <li>
+                    <a href="">
+                      <i class="fa-brands fa-github fa-xl"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-brands fa-linkedin fa-xl"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="">
+                      <i class="fa-brands fa-instagram fa-xl"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="me-gallary">
+            <div class="me-wrapper m1">
+              <img src="./assets/me-1.jpg" alt="" />
+            </div>
+            <div class="me-wrapper m2">
+              <img src="./assets/me-2.jpg" alt="" />
+            </div>
+            <div class="me-wrapper m3">
+              <img src="./assets/me-3.jpg" alt="" />
+            </div>
+          </div>
+          <button class="section-btn margin-small margin-block">
+            <span class="dot"></span>About Me
+          </button>
+        </section>
+        <section class="Experties margin-big margin-block">
+          <header>
+            <h2 class="heading-title">
+              Experties<span class="red-dot">.</span>
+            </h2>
+          </header>
+          <div class="text-small margin-small margin-block center-text">
+            Throughout my career, I have successfully completed numerous
+            freelancing projects, demonstrating a keen ability to adapt and
+            excel in dynamic environments. I bring a blend of technical
+            proficiency and creative problem-solving to every project, ensuring
+            high-quality results that meet client needs and exceed expectations.
+          </div>
+          <section class="cards flex margin-large margin-top">
+            <div class="card">
+              <div class="text-tiny">.01</div>
+              <div class="text-diplay">ui design</div>
+              <div class="text-ssmall opacity-55">
+                With a keen eye for design, I specialize in creating visually
+                stunning websites that are both user-friendly and engaging. We
+                work good
+              </div>
+            </div>
+            <div class="card">
+              <div class="text-tiny">.02</div>
+              <div class="text-diplay">apps</div>
+              <div class="text-ssmall opacity-55">
+                With a keen eye for design, I specialize in creating visually
+                stunning websites that are both user-friendly and engaging. We
+                work good
+              </div>
+            </div>
+            <div class="card">
+              <div class="text-tiny">.03</div>
+              <div class="text-diplay">ux design</div>
+              <div class="text-ssmall opacity-55">
+                With a keen eye for design, I specialize in creating visually
+                stunning websites that are both user-friendly and engaging. We
+                work good
+              </div>
+            </div>
+          </section>
+          <button class="section-btn margin-large margin-block">
+            <span class="dot"></span>Explore
+          </button>
+        </section>
+        <section class="services margin-xlarge margin-top">
+          <header>
+            <h2 class="heading-title margin-smal margin-bottom">
+              Projects<span class="red-dot">.</span>
+            </h2>
+          </header>
+          <div class="service-feture">
+            <div class="s-card">
+              <div class="row-top flex">
+                <div class="text-small" style="font-weight: 600">1.</div>
+                <div>
+                  <span class="lable">Web Dev</span>
+                  <span class="lable">Clone</span>
+                </div>
+              </div>
+              <div class="main-row">
+                <div class="text-xsmall">
+                  <h2>NetFlix<span class="red-dot">.</span></h2>
+                </div>
+              </div>
+              <button class="view text-ssmall font">View Project</button>
+            </div>
+            <div class="s-card">
+              <div class="row-top flex">
+                <div class="text-small" style="font-weight: 600">2.</div>
+                <div>
+                  <span class="lable">Web Dev</span>
+                  <span class="lable">Clone</span>
+                </div>
+              </div>
+              <div class="main-row">
+                <div class="text-xsmall">
+                  <h2>Swiggy<span class="red-dot">.</span></h2>
+                </div>
+              </div>
+              <button class="view text-ssmall font">View Project</button>
+            </div>
+            <div class="s-card">
+              <div class="row-top flex">
+                <div class="text-small" style="font-weight: 600">3.</div>
+                <div>
+                  <span class="lable">Web Dev</span>
+                  <span class="lable">Clone</span>
+                </div>
+              </div>
+              <div class="main-row">
+                <div class="text-xsmall">
+                  <h2>Dominos<span class="red-dot">.</span></h2>
+                </div>
+              </div>
+              <button class="view text-ssmall font">View Project</button>
+            </div>
+            <div class="s-card">
+              <div class="row-top flex">
+                <div class="text-small" style="font-weight: 600">4.</div>
+                <div>
+                  <span class="lable">Web Dev</span>
+                  <span class="lable">NetFlix</span>
+                </div>
+              </div>
+              <div class="main-row">
+                <div class="text-xsmall">
+                  <h2>usability<span class="red-dot">.</span></h2>
+                </div>
+              </div>
+              <button class="view text-ssmall font">View Project</button>
+            </div>
+          </div>
+        </section>
+        <button class="section-btn"><span class="dot"></span>Work</button>
+      </div>
+      <div class="page-3" id="portfolio">
+        <header>
+          <h2 class="heading-title margin-small margin-bottom">
+            Portfolio<span class="red-dot">.</span>
+          </h2>
+        </header>
+        <div class="elem">
+          <div class="d">
+            <div class="img-wrapper">
+              <img src="./assets/project-1.png" alt="" />
+            </div>
+          </div>
+          <div class="text-row margin-small margin-block">
+            <div class="text-large">OUTLIERS</div>
+            <div class="opacity-55">Development</div>
+          </div>
+        </div>
+        <div class="elem">
+          <div class="d">
+            <div class="img-wrapper">
+              <img src="./assets/project-2.png" alt="" />
+            </div>
+          </div>
+          <div class="text-row margin-small margin-block">
+            <div class="text-large">MADERA</div>
+            <div class="opacity-55">Branding</div>
+          </div>
+        </div>
+        <div class="elem">
+          <div class="d">
+            <div class="img-wrapper">
+              <img src="./assets/project-6.png" alt="" />
+            </div>
+          </div>
+          <div class="text-row margin-small margin-block">
+            <div class="text-large">AQUEMINI</div>
+            <div class="opacity-55">Webflow</div>
+          </div>
+        </div>
+        <div class="elem">
+          <div class="d">
+            <div class="img-wrapper">
+              <img src="./assets/project-3.png" alt="" />
+            </div>
+          </div>
+          <div class="text-row margin-small margin-block">
+            <div class="text-large">SWETHER WEATHER</div>
+            <div class="opacity-55">Web design</div>
+          </div>
+        </div>
+      </div>
+      <div class="page-4 margin-xlarge margin-top" id="footer">
+        <footer class="center-text">
+          <header>
+            <h2 class="heading-title">
+              Let's Work Together<span class="red-dot">.</span>
+            </h2>
+          </header>
+          <div class="text-ssmall margin-large margin-top">
+            Thank you for visiting my portfolio! I'm excited to hear from you.
+            If you have any questions, comments, or project inquiries, please
+            don't hesitate to get in touch with me. I'll do my best to get back
+            to you as soon as possible within 24 hours!
+          </div>
+          <div class="social-icons margin-small margin-top">
+            <ul>
+              <li>
+                <a href="">
+                  <i class="fa-brands fa-github fa-xl"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-brands fa-linkedin fa-xl"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-brands fa-instagram fa-xl"></i>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <i class="fa-brands fa-twitter fa-xl"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="subfooter margin-top margin-xlarge">
+            <hr />
+            <div class="flex">
+              <div class="sub-left">
+                <div class="">dongaremahesh10@gmail.com</div>
+              </div>
+              <div class="sub-right">
+                <ul>
+                  <li><a href="">Instagram</a></li>
+                  <li><a href="">Github</a></li>
+                  <li><a href="">Twitter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/ae8ff12b97.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
