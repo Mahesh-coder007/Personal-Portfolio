@@ -110,7 +110,7 @@ revealContainers.forEach((animcontainer, i) => {
     scrollTrigger: {
       trigger: animcontainer,
       start:"top 80%",
-      ease: 'power2.inOut',
+      ease: 'power2',
     }
   });
 
@@ -118,6 +118,26 @@ revealContainers.forEach((animcontainer, i) => {
   tl9.to(anim,{
     y:0,
     opacity:1,
-    ease: 'power2.inOut',
+    ease: 'power2',
   });
 });
+
+gsap.to(".top",{
+  y:"-100%",
+  duration:1,
+  ease: "power4.in",
+  delay:.2,
+  stagger:{
+    amount:0.5
+},
+})
+
+gsap.to(".bottom",{
+  y:"100%",
+  duration:1,
+  ease: "power4.in",
+  delay:.2,
+  stagger:{
+    amount:0.5
+},
+})
