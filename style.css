@@ -33,7 +33,7 @@ body {
 
 .loader {
   position: fixed;
-  z-index: 9999999999;
+  z-index: 9999999;
   width: 100%;
   display: flex;
   flex-direction: column;

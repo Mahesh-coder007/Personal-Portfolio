@@ -141,3 +141,8 @@ gsap.to(".bottom",{
     amount:0.5
 },
 })
+
+gsap.to(".loader",{
+  display:"none",
+  delay:1.2,
+})
