@@ -118,7 +118,7 @@ revealContainers.forEach((animcontainer, i) => {
   tl9.to(anim,{
     y:0,
     opacity:1,
-    ease: 'power2',
+    ease: 'power4',
   });
 });
 
